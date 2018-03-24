@@ -1,3 +1,3 @@
 FROM node:9
 
-RUN apt install sshpass
+RUN apt-get update && apt-get install sshpass
